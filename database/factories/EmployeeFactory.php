@@ -26,7 +26,7 @@ class EmployeeFactory extends Factory
             'position'=> $this->faker->randomElement(['Lead Software Engineer', 'IT Project Manager', 'Junior Django Developer',
                 'Senior Laravel Developer', 'Full Stack Developer', 'Junior Backend Developer', 'Web Developer Trainee',
                 'Senior React Frontend Developer', 'IT Helpdesk', 'Mid Network Engineer', 'Junior Software Engineer', 
-                'Junior Flutter Developer', 'Lead Technical Engineer', 'Junior Phyton Developer', 'React Native Developer'
+                'Junior Flutter Developer', 'Lead Technical Engineer', 'Junior Python Developer', 'React Native Developer'
             ]),
             'email'=> $this->faker->safeEmail(),
             'gender'=> $gender,
