@@ -1,0 +1,15 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .active_link{
+        @apply text-white bg-gradient-to-r from-green-700 via-green-600 to-green-500 hover:scale-90 transition ease-in duration-300;
+    }
+
+    .inactive_link{
+        @apply hover:bg-gray-100 hover:rounded-lg hover:text-gray-600 transition ease-in duration-300 hover:scale-95;
+    }
+}
