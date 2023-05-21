@@ -13,3 +13,13 @@ This is a simple employee data management web application, which is currently in
 ![screencapture-127-0-0-1-8000-2023-05-21-18_08_50](https://github.com/mizukageyama/employee-data-management/assets/63276829/92da066e-ac62-4bf2-a4d2-a80c04160b87)
 
 -   Create Form Page - in progress...
+
+
+#### To run this application after clone:
+* npm i
+* composer update
+* create ecotech_employee database
+* create .env file
+* make sure to add the db name inside .env
+* migrate and seed
+* finally... you can now run the application
